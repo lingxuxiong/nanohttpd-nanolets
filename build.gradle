@@ -1,0 +1,18 @@
+description = 'NanoHttpd-nano application server'
+
+apply plugin: 'com.android.library'
+
+android {
+	compileSdkVersion 26
+
+	defaultConfig {
+		minSdkVersion 16
+		targetSdkVersion 26
+	}
+}
+
+dependencies {
+	implementation project(':nanohttpd-core')
+	
+	//testCompile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.4.1'
+}

@@ -1,0 +1,5 @@
+/.settings/
+/LICENSE.txt
+/build
+*.iml
+/target
